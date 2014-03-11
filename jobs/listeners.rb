@@ -18,13 +18,13 @@ class Shoutcast
 end
 
 listener_history = []
-(1..10).each do |i|
+(1..60).each do |i|
   listener_history << {x:i, y: 0}
 end
 last_x = listener_history.last[:x]
 
 
-SCHEDULER.every '3s' do
+SCHEDULER.every '1s' do
   listener_history.shift
   last_x += 1
   listener_history << { x: last_x, y: Shoutcast.new.listeners }
