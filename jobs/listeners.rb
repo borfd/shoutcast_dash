@@ -8,7 +8,10 @@ last_x = listener_history.last[:x]
 SCHEDULER.every '1s' do
   listener_history.shift
   last_x += 1
-  listener_history << { x: last_x, y: Shoutcast.new.listener_count }
+  shoutcast = Shoutcast.new
+  listener_history << { x: last_x, y: shoutcast.listener_count }
 
   send_event('listener_graph', points: listener_history)
+
+  send_event('listener_user_agents', items: shoutcast.user_agents)
 end
