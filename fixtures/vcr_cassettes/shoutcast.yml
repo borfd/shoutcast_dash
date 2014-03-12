@@ -7,10 +7,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - '*/*'
+      - ! '*/*'
       User-Agent:
       - Ruby
   response:
@@ -21,41 +19,15 @@ http_interactions:
       Content-Type:
       - text/xml
       Content-Length:
-      - '438'
-    body:
-      encoding: UTF-8
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>83.80.170.241</HOSTNAME><USERAGENT></USERAGENT><CONNECTTIME>374</CONNECTTIME><UID>0x7f9ac0005628</UID></LISTENER><LISTENER><HOSTNAME>77.3.78.100</HOSTNAME><USERAGENT>iTunes/11.1.5
-        (Macintosh; OS X 10.9.1) AppleWebKit/537.73.11</USERAGENT><CONNECTTIME>416</CONNECTTIME><UID>0x7f9acc00a278</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
-    http_version: 
-  recorded_at: Wed, 12 Mar 2014 07:35:48 GMT
-- request:
-    method: get
-    uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=1
+      - '1084'
     body:
       encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - text/xml
-      Content-Length:
-      - '438'
-    body:
-      encoding: UTF-8
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>83.80.170.241</HOSTNAME><USERAGENT></USERAGENT><CONNECTTIME>374</CONNECTTIME><UID>0x7f9ac0005628</UID></LISTENER><LISTENER><HOSTNAME>77.3.78.100</HOSTNAME><USERAGENT>iTunes/11.1.5
-        (Macintosh; OS X 10.9.1) AppleWebKit/537.73.11</USERAGENT><CONNECTTIME>416</CONNECTTIME><UID>0x7f9acc00a278</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>85.216.89.89</HOSTNAME><USERAGENT></USERAGENT><CONNECTTIME>5689</CONNECTTIME><UID>0x7f9ab8305bc8</UID></LISTENER><LISTENER><HOSTNAME>46.237.200.149</HOSTNAME><USERAGENT>iTunes/11.1.5
+        (Macintosh; OS X 10.9.1) AppleWebKit/537.73.11</USERAGENT><CONNECTTIME>91</CONNECTTIME><UID>0x7f9ac0001058</UID></LISTENER><LISTENER><HOSTNAME>46.107.79.37</HOSTNAME><USERAGENT>VLC/2.0.3
+        LibVLC/2.0.3</USERAGENT><CONNECTTIME>2918</CONNECTTIME><UID>0x7f9ac0009978</UID></LISTENER><LISTENER><HOSTNAME>207.244.72.52</HOSTNAME><USERAGENT>WinampMPEG/5.09</USERAGENT><CONNECTTIME>1071</CONNECTTIME><UID>0x7f9acc0017c8</UID></LISTENER><LISTENER><HOSTNAME>109.42.2.197</HOSTNAME><USERAGENT>Lavf53.32.100</USERAGENT><CONNECTTIME>1476</CONNECTTIME><UID>0x7f9acc002318</UID></LISTENER><LISTENER><HOSTNAME>91.154.155.232</HOSTNAME><USERAGENT>iTunes/11.1.5
+        (Macintosh; OS X 10.7.5) AppleWebKit/534.57.7</USERAGENT><CONNECTTIME>1976</CONNECTTIME><UID>0x7f9ad83072f8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
     http_version: 
-  recorded_at: Wed, 12 Mar 2014 07:35:48 GMT
+  recorded_at: Wed, 12 Mar 2014 12:27:05 GMT
 - request:
     method: get
     uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=2
@@ -63,118 +35,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - '*/*'
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - text/xml
-      Content-Length:
-      - '263'
-    body:
-      encoding: UTF-8
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>207.244.72.39</HOSTNAME><USERAGENT>WinampMPEG/5.09</USERAGENT><CONNECTTIME>1694</CONNECTTIME><UID>0x7f9ac00096b8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
-    http_version: 
-  recorded_at: Wed, 12 Mar 2014 07:35:48 GMT
-- request:
-    method: get
-    uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=2
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - text/xml
-      Content-Length:
-      - '263'
-    body:
-      encoding: UTF-8
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>207.244.72.39</HOSTNAME><USERAGENT>WinampMPEG/5.09</USERAGENT><CONNECTTIME>1694</CONNECTTIME><UID>0x7f9ac00096b8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
-    http_version: 
-  recorded_at: Wed, 12 Mar 2014 07:35:48 GMT
-- request:
-    method: get
-    uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=3
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - text/xml
-      Content-Length:
-      - '406'
-    body:
-      encoding: UTF-8
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>207.244.72.53</HOSTNAME><USERAGENT>WinampMPEG/5.09</USERAGENT><CONNECTTIME>157</CONNECTTIME><UID>0x7f9ac0005418</UID></LISTENER><LISTENER><HOSTNAME>77.98.129.229</HOSTNAME><USERAGENT>vlc/1.1.9</USERAGENT><CONNECTTIME>45595</CONNECTTIME><UID>0x7f9ad83075e8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
-    http_version: 
-  recorded_at: Wed, 12 Mar 2014 07:35:48 GMT
-- request:
-    method: get
-    uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=3
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
-      User-Agent:
-      - Ruby
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - text/xml
-      Content-Length:
-      - '406'
-    body:
-      encoding: UTF-8
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>207.244.72.53</HOSTNAME><USERAGENT>WinampMPEG/5.09</USERAGENT><CONNECTTIME>157</CONNECTTIME><UID>0x7f9ac0005418</UID></LISTENER><LISTENER><HOSTNAME>77.98.129.229</HOSTNAME><USERAGENT>vlc/1.1.9</USERAGENT><CONNECTTIME>45595</CONNECTTIME><UID>0x7f9ad83075e8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
-    http_version: 
-  recorded_at: Wed, 12 Mar 2014 07:35:48 GMT
-- request:
-    method: get
-    uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=4
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - '*/*'
+      - ! '*/*'
       User-Agent:
       - Ruby
   response:
@@ -187,10 +49,35 @@ http_interactions:
       Content-Length:
       - '114'
     body:
-      encoding: UTF-8
+      encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS></LISTENERS></SHOUTCASTSERVER>
     http_version: 
-  recorded_at: Wed, 12 Mar 2014 07:35:48 GMT
+  recorded_at: Wed, 12 Mar 2014 12:27:05 GMT
+- request:
+    method: get
+    uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - ! '*/*'
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - text/xml
+      Content-Length:
+      - '402'
+    body:
+      encoding: US-ASCII
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>85.186.138.33</HOSTNAME><USERAGENT>FreeAmp/2.x</USERAGENT><CONNECTTIME>502</CONNECTTIME><UID>0x7f9acc00a8c8</UID></LISTENER><LISTENER><HOSTNAME>77.98.129.229</HOSTNAME><USERAGENT>vlc/1.1.9</USERAGENT><CONNECTTIME>63072</CONNECTTIME><UID>0x7f9ad83075e8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
+    http_version: 
+  recorded_at: Wed, 12 Mar 2014 12:27:05 GMT
 - request:
     method: get
     uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=4
@@ -198,10 +85,8 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - '*/*'
+      - ! '*/*'
       User-Agent:
       - Ruby
   response:
@@ -214,8 +99,8 @@ http_interactions:
       Content-Length:
       - '114'
     body:
-      encoding: UTF-8
+      encoding: US-ASCII
       string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS></LISTENERS></SHOUTCASTSERVER>
     http_version: 
-  recorded_at: Wed, 12 Mar 2014 07:35:49 GMT
+  recorded_at: Wed, 12 Mar 2014 12:27:05 GMT
 recorded_with: VCR 2.5.0

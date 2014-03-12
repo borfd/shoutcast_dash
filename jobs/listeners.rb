@@ -1,5 +1,5 @@
 listener_history = []
-(1..360).each do |i|
+(1..60*60).each do |i|
   listener_history << {x:i, y: 0}
 end
 last_x = listener_history.last[:x]

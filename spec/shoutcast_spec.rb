@@ -2,9 +2,12 @@ require 'spec_helper'
 require_relative "../lib/shoutcast"
 
 describe Shoutcast do
+  it "can read the password" do
+    expect(ENV["SHOUTCAST_PASSWORD"]).to_not be_empty
+  end
   it "returns the listeners" do
     VCR.use_cassette('shoutcast') do
-      expect(Shoutcast.new.listener_count).to eq(5)
+      expect(Shoutcast.new.listener_count).to eq(8)
     end
   end
 end
