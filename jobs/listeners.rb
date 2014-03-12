@@ -19,6 +19,7 @@ end
 SCHEDULER.every '1m' do
   shoutcast = Shoutcast.new
   send_event('nowplaying', text: shoutcast.now_playing)
+  send_event('stream_hits', {current: shoutcast.stream_hits.to_i, last: 0})
 end
 
 SCHEDULER.every '5m' do
