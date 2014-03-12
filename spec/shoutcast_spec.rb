@@ -20,11 +20,19 @@ describe Shoutcast do
     end
   end
 
-  it "returns now playing" do
+  context "summary" do
+    let (:shoutcast) { Shoutcast.new }
+    it "returns now playing" do
+      VCR.use_cassette('shoutcast', :record => :new_episodes) do
+        expect(shoutcast.now_playing).to eq('NeuralNET - The Darkside Deep Bass 2012 18-01-13')
+      end
+    end
 
-    VCR.use_cassette('shoutcast', :record => :new_episodes) do
-
-      expect(Shoutcast.new.now_playing).to eq('NeuralNET - The Darkside Deep Bass 2012 18-01-13')
+    it "reports max listeners" do
+      VCR.use_cassette('shoutcast', :record => :new_episodes) do
+        expect(shoutcast.peak_listeners).to eq("35")
+      end
     end
   end
+
 end
