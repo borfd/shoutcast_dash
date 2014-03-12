@@ -14,4 +14,6 @@ SCHEDULER.every '1s' do
   send_event('listener_graph', points: listener_history)
 
   send_event('listener_user_agents', items: shoutcast.user_agents)
+
+  send_event('nowplaying', text: shoutcast.now_playing)
 end
