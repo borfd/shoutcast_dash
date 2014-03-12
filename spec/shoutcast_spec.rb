@@ -33,6 +33,12 @@ describe Shoutcast do
         expect(shoutcast.peak_listeners).to eq("35")
       end
     end
+
+    it "reports all hits" do
+      VCR.use_cassette('shoutcast', :record => :new_episodes) do
+        expect(shoutcast.stream_hits).to eq("526402")
+      end
+    end
   end
 
 end
