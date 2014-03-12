@@ -20,3 +20,8 @@ SCHEDULER.every '1m' do
   shoutcast = Shoutcast.new
   send_event('nowplaying', text: shoutcast.now_playing)
 end
+
+SCHEDULER.every '5m' do
+  shoutcast = Shoutcast.new
+  send_event('peak', { value: shoutcast.peak_listeners.to_i })
+end
