@@ -8,14 +8,14 @@ describe Shoutcast do
 
   it "returns the listeners" do
     VCR.use_cassette('shoutcast') do
-      expect(Shoutcast.new.listener_count).to eq(8)
+      expect(Shoutcast.new.listener_count).to eq(11)
     end
   end
 
 
   it "returns user agents" do
     VCR.use_cassette('shoutcast') do
-      expect(Shoutcast.new.user_agents.join).to include("iTunes")
+      expect(Shoutcast.new.user_agents.join).to include("Mozilla")
     end
   end
 end

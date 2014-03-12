@@ -7,8 +7,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - '*/*'
       User-Agent:
       - Ruby
   response:
@@ -19,15 +21,19 @@ http_interactions:
       Content-Type:
       - text/xml
       Content-Length:
-      - '1084'
+      - '1587'
     body:
-      encoding: US-ASCII
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>85.216.89.89</HOSTNAME><USERAGENT></USERAGENT><CONNECTTIME>5689</CONNECTTIME><UID>0x7f9ab8305bc8</UID></LISTENER><LISTENER><HOSTNAME>46.237.200.149</HOSTNAME><USERAGENT>iTunes/11.1.5
-        (Macintosh; OS X 10.9.1) AppleWebKit/537.73.11</USERAGENT><CONNECTTIME>91</CONNECTTIME><UID>0x7f9ac0001058</UID></LISTENER><LISTENER><HOSTNAME>46.107.79.37</HOSTNAME><USERAGENT>VLC/2.0.3
-        LibVLC/2.0.3</USERAGENT><CONNECTTIME>2918</CONNECTTIME><UID>0x7f9ac0009978</UID></LISTENER><LISTENER><HOSTNAME>207.244.72.52</HOSTNAME><USERAGENT>WinampMPEG/5.09</USERAGENT><CONNECTTIME>1071</CONNECTTIME><UID>0x7f9acc0017c8</UID></LISTENER><LISTENER><HOSTNAME>109.42.2.197</HOSTNAME><USERAGENT>Lavf53.32.100</USERAGENT><CONNECTTIME>1476</CONNECTTIME><UID>0x7f9acc002318</UID></LISTENER><LISTENER><HOSTNAME>91.154.155.232</HOSTNAME><USERAGENT>iTunes/11.1.5
-        (Macintosh; OS X 10.7.5) AppleWebKit/534.57.7</USERAGENT><CONNECTTIME>1976</CONNECTTIME><UID>0x7f9ad83072f8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>85.216.89.89</HOSTNAME><USERAGENT></USERAGENT><CONNECTTIME>26023</CONNECTTIME><UID>0x7f9ab8305bc8</UID></LISTENER><LISTENER><HOSTNAME>71.68.39.172</HOSTNAME><USERAGENT>foobar2000/1.1.15</USERAGENT><CONNECTTIME>19444</CONNECTTIME><UID>0x7f9ac40110e8</UID></LISTENER><LISTENER><HOSTNAME>77.98.129.229</HOSTNAME><USERAGENT>Mozilla/5.0
+        (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0</USERAGENT><CONNECTTIME>17227</CONNECTTIME><UID>0x7f9ac4012d88</UID></LISTENER><LISTENER><HOSTNAME>37.6.156.75</HOSTNAME><USERAGENT>Mozilla/5.0
+        (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.146
+        Safari/537.36</USERAGENT><CONNECTTIME>433</CONNECTTIME><UID>0x7f9ac80028e8</UID></LISTENER><LISTENER><HOSTNAME>188.79.172.27</HOSTNAME><USERAGENT>Nullsoft
+        Winamp3 version 3.0 (compatible)</USERAGENT><CONNECTTIME>325</CONNECTTIME><UID>0x7f9ac8003298</UID></LISTENER><LISTENER><HOSTNAME>79.225.199.251</HOSTNAME><USERAGENT>Mozilla/5.0
+        (Windows NT 6.1; WOW64; rv:27.0) Gecko/20100101 Firefox/27.0</USERAGENT><CONNECTTIME>2755</CONNECTTIME><UID>0x7f9acc001318</UID></LISTENER><LISTENER><HOSTNAME>77.98.129.229</HOSTNAME><USERAGENT>Audacious/2.5.3
+        neon/0.29.5</USERAGENT><CONNECTTIME>16991</CONNECTTIME><UID>0x7f9acc001698</UID></LISTENER><LISTENER><HOSTNAME>86.127.141.90</HOSTNAME><USERAGENT>Mozilla/5.0
+        (Windows NT 5.1; rv:27.0) Gecko/20100101 Firefox/27.0</USERAGENT><CONNECTTIME>186</CONNECTTIME><UID>0x7f9acc0024e8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
     http_version: 
-  recorded_at: Wed, 12 Mar 2014 12:27:05 GMT
+  recorded_at: Wed, 12 Mar 2014 18:05:59 GMT
 - request:
     method: get
     uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=2
@@ -35,8 +41,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - '*/*'
       User-Agent:
       - Ruby
   response:
@@ -47,12 +55,12 @@ http_interactions:
       Content-Type:
       - text/xml
       Content-Length:
-      - '114'
+      - '262'
     body:
-      encoding: US-ASCII
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS></LISTENERS></SHOUTCASTSERVER>
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>207.244.72.53</HOSTNAME><USERAGENT>WinampMPEG/5.09</USERAGENT><CONNECTTIME>709</CONNECTTIME><UID>0x7f9adc309218</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
     http_version: 
-  recorded_at: Wed, 12 Mar 2014 12:27:05 GMT
+  recorded_at: Wed, 12 Mar 2014 18:06:00 GMT
 - request:
     method: get
     uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=3
@@ -60,8 +68,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - '*/*'
       User-Agent:
       - Ruby
   response:
@@ -72,12 +82,12 @@ http_interactions:
       Content-Type:
       - text/xml
       Content-Length:
-      - '402'
+      - '407'
     body:
-      encoding: US-ASCII
-      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>85.186.138.33</HOSTNAME><USERAGENT>FreeAmp/2.x</USERAGENT><CONNECTTIME>502</CONNECTTIME><UID>0x7f9acc00a8c8</UID></LISTENER><LISTENER><HOSTNAME>77.98.129.229</HOSTNAME><USERAGENT>vlc/1.1.9</USERAGENT><CONNECTTIME>63072</CONNECTTIME><UID>0x7f9ad83075e8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
+      encoding: UTF-8
+      string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS><LISTENER><HOSTNAME>207.244.72.42</HOSTNAME><USERAGENT>WinampMPEG/5.09</USERAGENT><CONNECTTIME>1977</CONNECTTIME><UID>0x7f9acc003588</UID></LISTENER><LISTENER><HOSTNAME>77.98.129.229</HOSTNAME><USERAGENT>vlc/1.1.9</USERAGENT><CONNECTTIME>83407</CONNECTTIME><UID>0x7f9ad83075e8</UID></LISTENER></LISTENERS></SHOUTCASTSERVER>
     http_version: 
-  recorded_at: Wed, 12 Mar 2014 12:27:05 GMT
+  recorded_at: Wed, 12 Mar 2014 18:06:00 GMT
 - request:
     method: get
     uri: http://admin:dirtyisbetter@dirtybass.fm:8000/admin.cgi?mode=viewxml&page=3&sid=4
@@ -85,8 +95,10 @@ http_interactions:
       encoding: US-ASCII
       string: ''
     headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
-      - ! '*/*'
+      - '*/*'
       User-Agent:
       - Ruby
   response:
@@ -99,8 +111,8 @@ http_interactions:
       Content-Length:
       - '114'
     body:
-      encoding: US-ASCII
+      encoding: UTF-8
       string: <?xml version="1.0" encoding="UTF-8" standalone="yes" ?><SHOUTCASTSERVER><LISTENERS></LISTENERS></SHOUTCASTSERVER>
     http_version: 
-  recorded_at: Wed, 12 Mar 2014 12:27:05 GMT
+  recorded_at: Wed, 12 Mar 2014 18:06:00 GMT
 recorded_with: VCR 2.5.0
