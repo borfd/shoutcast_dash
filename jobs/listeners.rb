@@ -4,6 +4,7 @@ listener_history = []
 end
 last_x = listener_history.last[:x]
 
+tracker = ListenerTracker.new
 
 SCHEDULER.every '1s' do
   listener_history.shift

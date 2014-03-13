@@ -39,6 +39,13 @@ describe Shoutcast do
         expect(shoutcast.stream_hits).to eq("526402")
       end
     end
+
+    it "reports ips" do
+      VCR.use_cassette('shoutcast', :record => :new_episodes) do
+        expect(shoutcast.ips.first).to eq("85.216.89.89")
+      end
+    end
+
   end
 
 end
