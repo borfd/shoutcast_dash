@@ -1,14 +1,16 @@
+require 'redis'
+
 class ListenerTracker
 
   def initialize
-    @listeners = Set.new
+    @redis = Redis.new
   end
 
   def post_listeners listeners
-    @listeners.merge listeners
+    @redis.sadd('ips', listeners)
   end
 
   def unique_listeners
-    @listeners.count
+    @redis.scard('ips')
   end
 end
